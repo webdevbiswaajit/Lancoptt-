@@ -117,8 +117,8 @@ nav {
 
 .hero_text h2 {
     font-weight: 700;
-    font-size: 65px;
-    line-height: 80px;
+    font-size: 100px;
+    line-height: 100px;
     color: #FFFFFF;
 }
 
@@ -140,7 +140,7 @@ nav {
 .service_tour_left h2 {
     font-weight: 600;
     font-size: 65px;
-    line-height: 70px;
+    line-height: 80px;
     color: #FFFFFF;
 }
 
@@ -159,7 +159,7 @@ nav {
     background-color: #FFDB60;
     border: 1px solid #FFDB60;
     padding: 25px 60px;
-    margin-top: 10px;
+    margin-top: 30px;
     transition: .2s all ease;
     -webkit-transition: .2s all ease;
     -moz-transition: .2s all ease;
@@ -308,6 +308,7 @@ nav {
     font-size: 35px;
     color: #24272E;
     text-align: center;
+    margin-bottom: 45px;
 }
 
 .explore_text p {
@@ -406,13 +407,23 @@ nav {
 .retal_link a {
     color: #24272E;
     background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
     padding: 25px 50px;
     font-weight: 400;
     font-size: 18px;
     line-height: 18px;
     color: #24272E;
+    transition: .2s all ease;
+    -webkit-transition: .2s all ease;
+    -moz-transition: .2s all ease;
+    -ms-transition: .2s all ease;
+    -o-transition: .2s all ease;
+}
 
-
+.retal_link a:hover {
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    color: #ffffff;
 }
 
 .retail_img:hover .retal_link {
@@ -442,13 +453,23 @@ nav {
 .retal_link_small a {
     color: #24272E;
     background-color: #FFFFFF;
+    border: 1px sloid #ffffff;
     padding: 5px 10px;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
     color: #24272E;
+    transform: .2s all ease;
+    -webkit-transform: .2s all ease;
+    -moz-transform: .2s all ease;
+    -ms-transform: .2s all ease;
+    -o-transform: .2s all ease;
+}
 
-
+.retal_link_small a:hover {
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    color: #ffffff;
 }
 
 .retail_img:hover .retal_link_small {
@@ -529,6 +550,8 @@ nav {
     width: 500px;
     height: 50px;
     padding: 30px 30px;
+    outline: none;
+    border: none;
 
 
 
@@ -537,6 +560,7 @@ nav {
 .subcribe_input input:focus {
     outline: none;
     border: none;
+
 }
 
 .subscribe_btn button {
@@ -544,7 +568,7 @@ nav {
     border: none;
     background-color: #FFDB60;
     border: 1px solid #FFDB60;
-    padding: 20px 40px;
+    padding: 18px 38px;
     transition: .2s all ease;
     -webkit-transition: .2s all ease;
     -moz-transition: .2s all ease;
@@ -629,7 +653,6 @@ input::-webkit-inner-spin-button {
 .text-area textarea {
     width: 100%;
     height: 250px;
-    resize: none;
     padding: 25px 30px;
     border: none;
     font-family: 'Open Sans';
