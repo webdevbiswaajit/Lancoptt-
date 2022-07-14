@@ -67,11 +67,20 @@ p {
 /* ===========Global css================= */
 
 /* ========Header Area============== */
+
+
+
 nav {
     background-color: #24272E;
     height: 70px;
     display: flex;
     align-items: center;
+    overflow: hidden;
+    z-index: 11;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
 }
 
 .nav_left img {
@@ -93,11 +102,63 @@ nav {
     color: #FFDB60;
 }
 
+.menu_item {
+    position: absolute;
+    background-color: #24272E;
+    top: 70px;
+    left: 0;
+    height: 95vh;
+    width: 100%;
+    z-index: 7;
+    display: none;
+
+}
+
+.menu_item ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.menu_item ul li {
+    margin-bottom: 20px;
+}
+
+.menu_item ul li a {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFDB60;
+    transition: .2s all ease;
+    -webkit-transition: .2s all ease;
+    -moz-transition: .2s all ease;
+    -ms-transition: .2s all ease;
+    -o-transition: .2s all ease;
+    text-transform: uppercase;
+}
+
+.menu_item ul li a:hover {
+    color: #FFFFFF;
+}
+
+#myDIV {
+    display: none;
+}
+
+.home {
+    color: #FFFF !important;
+}
+
 /* ========Header Area============== */
 
 
 
 /* ==============Hero-Area============== */
+.header-gap {
+    margin-top: 70px;
+}
 
 .header_area {
     background-image: url('../img/hero-min.jpg');
@@ -105,14 +166,15 @@ nav {
     background-repeat: no-repeat;
     background-position: center center;
     height: 90vh;
-    position: relative;
+
 
 }
 
-.hero_text {
-    content: '';
-    position: absolute;
-    bottom: 100px;
+.hero_text_area {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 85vh;
 }
 
 .hero_text h2 {
@@ -355,6 +417,10 @@ nav {
     background: #FFDB60;
     padding-bottom: 80px;
 
+}
+
+.retail-gap {
+    margin-bottom: 24px;
 }
 
 .retail_img {
@@ -804,8 +870,339 @@ input::-webkit-inner-spin-button {
 
 }
 
-
-
-
-
 /* =============Footer-End============= */
+
+
+/* ===============Responsive================= */
+@media only screen and (max-width: 320px) {
+    .menu_item {
+        position: absolute;
+        background-color: #24272E;
+        top: 70px;
+        left: 0;
+        height: 50%;
+        z-index: 7;
+        display: none;
+
+    }
+
+    .menu_item ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #24272E;
+        margin-left: -10%;
+    }
+
+
+
+    .head-text {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .nav_left img {
+        width: 150px;
+        height: 25px;
+    }
+
+    .hero_text h2 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 30px;
+
+    }
+
+    .header-gap {
+        margin-top: 30px;
+    }
+
+    .header_area {
+        height: 25vh;
+    }
+
+    .hero_text_area {
+        height: 20vh;
+    }
+
+    .tour_service {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .tour_service_text h2 {
+        text-align: center;
+        color: #fff;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+
+    .service_tour_left h2 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .service_tour_left p {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: justify;
+
+    }
+
+    .ticket-btn {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+
+    }
+
+    .ticket-btn button {
+        padding: 8px 18px;
+        margin-top: 20px;
+
+    }
+
+    .tour_galary_area {
+        padding-bottom: 20px;
+    }
+
+    .tour-galary-text {
+        padding-top: 20px;
+    }
+
+    .side-img img {
+        width: 300px;
+        height: 150px;
+        margin-bottom: 15px;
+    }
+
+    .galary-overlay-text h2 {
+        font-size: 30px;
+        line-height: 30px;
+
+    }
+
+    .galary-overlay-text p {
+        font-size: 12px;
+        line-height: 20px;
+
+    }
+
+    .view_galary {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .view_galary a {
+        padding: 8px 18px;
+    }
+
+    .explore_service_area {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .explor_img img {
+        height: 200px;
+    }
+
+    .explore_text h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .explore_text {
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .explore-link a {
+        padding: 8px 30px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+
+    }
+
+    .explore_card {
+        margin-top: 30px;
+    }
+
+    .retail_service_area {
+        padding-bottom: 30px;
+    }
+
+    .retail_service_text {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .retal_link a {
+        padding: 5px 20px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .retail_img {
+        margin-bottom: 15px;
+    }
+
+    .explore-service-link a {
+        padding: 8px 18px;
+        margin-top: 20px;
+    }
+
+    .explore-service-link {
+        margin-top: 19px;
+        margin-bottom: 0px;
+    }
+
+    .subscribe_text h2 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .subscribe_text span {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .subscribe_form input {
+        width: 200px;
+    }
+
+    .subdcribe_area {
+
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 260px;
+
+
+    }
+
+
+    .subscribe_text h2 {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        color: #FFFFFF;
+    }
+
+    .subscribe_text span {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        color: #FFDB60;
+    }
+
+    .subscribe_form {
+        display: block;
+        height: 120px;
+
+    }
+
+    .subcribe_input {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .subcribe_input input {
+        width: 250px;
+        height: 50px;
+        padding: 20px 10px;
+    }
+
+
+
+    .subscribe_btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+
+    }
+
+    .subscribe_btn button {
+        padding: 10px 30px;
+
+    }
+
+    .get-in-touch-area {
+        padding-bottom: 20px;
+    }
+
+    .text-input {
+        width: 300px;
+    }
+
+    .text-input input {
+        margin-bottom: 10px;
+        padding: 15px 20px;
+        font-size: 16px;
+        line-height: 19px;
+
+    }
+
+    .text-area textarea {
+        height: 150px;
+        padding: 15px 20px;
+        font-size: 16px;
+        line-height: 19px;
+
+    }
+
+
+    .submite_btn button {
+        padding: 10px 30px;
+        margin-top: 20px;
+    }
+
+    .footer-main-area {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer-logo {
+        text-align: center;
+    }
+
+    .footer-logo img {
+        width: 150px;
+        height: 25px;
+        text-align: center;
+    }
+
+    .social-media {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .tour-service {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .tour-service h2 {
+        margin-bottom: 0px;
+        font-size: 18px;
+    }
+
+    .footer-down {
+        height: 40px;
+    }
+
+    .footer-down p {
+        font-size: 12px;
+        line-height: 20px;
+
+    }
+}
