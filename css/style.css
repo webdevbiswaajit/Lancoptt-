@@ -1226,10 +1226,9 @@ input::-webkit-inner-spin-button {
     }
 
     .hero_text h2 {
-        font-weight: 700;
-        font-size: 25px;
-        line-height: 30px;
-        color: #FFFFFF;
+        font-size: 30px;
+        line-height: 45px;
+
     }
 
     .head-text {
@@ -1321,6 +1320,11 @@ input::-webkit-inner-spin-button {
 
     .retail_img {
         margin-bottom: 10px;
+    }
+
+    .explore_card {
+
+        margin-bottom: 20px;
     }
 
     .explore-service-link {
