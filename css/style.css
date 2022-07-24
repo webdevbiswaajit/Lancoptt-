@@ -1014,6 +1014,14 @@ input::-webkit-inner-spin-button {
         margin-bottom: 10px;
     }
 
+    .retal_link a {
+        padding: 10px 16px;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 18px;
+
+    }
+
     .explore_card {
 
         margin-bottom: 20px;

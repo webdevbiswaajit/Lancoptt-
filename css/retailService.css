@@ -155,6 +155,27 @@ p {
     padding-bottom: 65px;
 }
 
+.subdcribe_area_retail {
+    background: #FFDB60;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.subdcribe_area_retail .subscribe_text span {
+    color: #24272E;
+}
+
+.subdcribe_area_retail .subscribe_btn button {
+    background: #24272E;
+    color: #FFDB60;
+}
+
+.subdcribe_area_retail .subscribe_btn button:hover {
+    border: 1px solid #24272E;
+    background: transparent;
+    color: #24272E;
+}
+
 .retalil-tab-text h2 {
     font-weight: 400;
     font-size: 44px;

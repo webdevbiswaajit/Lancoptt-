@@ -62,13 +62,13 @@ $(document).ready(function () {
 
     if (nowShowing == numInList && isShowing) {
       isShowing = false;
-      button.text("Show less");
+      button.text("SHOW LESS");
     } else if (isShowing) {
-      button.text("Show more");
+      button.text("SHOW MORE");
     }
 
     if (nowShowing == numToShow) {
-      button.text("Show more");
+      button.text("SHOW MORE");
       isShowing = true;
     }
   }
