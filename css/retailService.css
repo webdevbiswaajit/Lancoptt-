@@ -63,6 +63,82 @@ p {
 }
 
 /* ===========Global css================= */
+/* =================Subscribe-Start============== */
+.subdcribe_area {
+    background: #24272E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+
+}
+
+
+.subscribe_text h2 {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+.subscribe_text span {
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    color: #FFDB60;
+}
+
+.subscribe_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 184px;
+
+}
+
+.subcribe_input {
+    margin-right: 25px;
+}
+
+.subcribe_input input {
+    width: 500px;
+    height: 50px;
+    padding: 30px 30px;
+    outline: none;
+    border: none;
+
+
+
+}
+
+.subcribe_input input:focus {
+    outline: none;
+    border: none;
+
+}
+
+.subscribe_btn button {
+    outline: none;
+    border: none;
+    background-color: #FFDB60;
+    border: 1px solid #FFDB60;
+    padding: 18px 38px;
+    transition: .2s all ease;
+    -webkit-transition: .2s all ease;
+    -moz-transition: .2s all ease;
+    -ms-transition: .2s all ease;
+    -o-transition: .2s all ease;
+}
+
+.subscribe_btn button:hover {
+    background-color: #24272E;
+    border: 1px solid #FFDB60;
+    color: #FFFFFF;
+}
+
+/* =================Subscribe-end============== */
 
 /* ==============Retail_service start============ */
 .retail-tab {
@@ -73,92 +149,104 @@ p {
 
 
 /* ==============Retail_service end============ */
+.tab_area {
+    background: #24272E;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
 .retalil-tab-text h2 {
     font-weight: 400;
-    font-size: 40px;
+    font-size: 44px;
     line-height: 70px;
     color: #FFFFFF;
     border-bottom: 1px solid #FFFFFF;
     border-width: 100%;
     margin-bottom: 20px;
+    display: inline-block;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Style the tab */
-.tab {
-    float: left;
-    width: 30%;
-
-
-
+.icon-gap {
+    margin-left: -20px !important;
 }
 
-/* Style the buttons that are used to open the tab content */
-.tab button {
-    display: block;
-    background-color: #24272E;
-    border-bottom: 1px solid #FFFFFF !important;
-    border-top: none;
+.tab_area .nav-link {
+    text-align: left;
+    background: transparent;
+    border-left: none;
+    border-radius: none;
     border-left: none;
     border-right: none;
-    margin-top: 10px;
-    width: 100%;
-    outline: none;
-    text-align: left;
-    cursor: pointer;
-    transition: 0.3s;
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: #fff;
+    font-family: 'Anton', sans-serif !important;
+    font-family: 'Open Sans';
+    font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 25px;
-    color: #FFFFFF;
-    padding-bottom: 15px;
+    transition: .2s all ease;
+
 }
 
-/* Change background color of buttons on hover */
-.tab button:hover {
+.tab_area .nav-link:hover {
     color: #FFDB60;
 }
 
-/* Create an active/current "tab button" class */
-.tab button.active {
+.tab_area .nav-link.active {
     color: #FFDB60;
 }
-
-/* Style the tab content */
-.tabcontent {
-    float: left;
-    padding: 0px 12px;
-    border-left: none;
-    height: 300px;
-    color: #ffff;
-    width: 70%;
-}
-
-
 
 .tab_img img {
     width: 640px;
     height: 640px;
 }
+
+.tab_content_text {
+    background: #1D1F25;
+    color: #ffff;
+    padding: 0px 30px 30px 30px;
+}
+
+.tab_content_text h2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    padding-top: 30px;
+
+}
+
+.tab_content_text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.advertise_list {
+    margin-bottom: 30px;
+}
+
+.advertise_list li {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.icon-color {
+    color: #FFDB60;
+}
+
+
+/* ==============retail-content============= */

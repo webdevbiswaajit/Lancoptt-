@@ -921,12 +921,10 @@ input::-webkit-inner-spin-button {
     }
 
     .header_area {
-        height: 25vh;
+        height: 150px;
     }
 
-    .hero_text_area {
-        height: 20vh;
-    }
+
 
     .tour_service {
         padding-top: 20px;
@@ -1051,6 +1049,10 @@ input::-webkit-inner-spin-button {
         line-height: 16px;
     }
 
+    .tour_galary-img img {
+        height: 200px;
+    }
+
     .retail_img {
         margin-bottom: 15px;
     }
@@ -1063,6 +1065,10 @@ input::-webkit-inner-spin-button {
     .explore-service-link {
         margin-top: 19px;
         margin-bottom: 0px;
+    }
+
+    .explor_img img {
+        height: 200px;
     }
 
     .subscribe_text h2 {
@@ -1204,5 +1210,215 @@ input::-webkit-inner-spin-button {
         font-size: 12px;
         line-height: 20px;
 
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .header_area {
+        height: 250px;
+    }
+
+
+
+    .hero_text {
+        height: 100%;
+        margin-top: 80px;
+    }
+
+    .hero_text h2 {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+
+    .head-text {
+        font-size: 30px;
+        line-height: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .service_tour_left h2 {
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .service_tour_left p {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: justify;
+    }
+
+    .ticket-btn {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .ticket-btn button {
+        padding: 10px 50px;
+    }
+
+    .service_tour_right {
+        margin: 0;
+    }
+
+    .tour_galary-img {
+        margin-bottom: 16px;
+    }
+
+    .tour_galary-img img {
+        height: 350px;
+    }
+
+    .galary-overlay-text h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .galary-overlay-text p {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .view_galary {
+        margin-top: 0px;
+    }
+
+    .tour_galary_area {
+        padding-bottom: 15px;
+    }
+
+    .view_galary a {
+        padding: 15px 50px;
+    }
+
+    .explor_img img {
+        height: 350px;
+    }
+
+    .explore_text {
+        padding-top: 15px;
+    }
+
+    .explore_text h2 {
+        margin: 20px;
+    }
+
+    .explore-link {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .explore-link a {
+        padding: 10px 50px;
+    }
+
+    .retail_service_area {
+        padding-bottom: 30px;
+    }
+
+    .retail_img {
+        margin-bottom: 10px;
+    }
+
+    .explore-service-link {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .explore-service-link a {
+        padding: 10px 50px;
+    }
+
+    .subscribe_text h2 {
+        font-size: 50px;
+        line-height: 60px;
+
+    }
+
+    .subscribe_text span {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .subdcribe_area {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .subscribe_form {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        height: 100%;
+    }
+
+    .subcribe_input {
+        margin: 0;
+    }
+
+    .subcribe_input input {
+        width: 100%;
+        padding: 10px 30px;
+        margin: 0;
+
+    }
+
+    .subscribe_btn button {
+        padding: 10px 60px;
+        margin-top: 10px;
+    }
+
+    .text-input {
+        width: 100%;
+    }
+
+    .submite-form {
+        width: 100%;
+        display: block;
+    }
+
+    .text-input input {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 15px 30px;
+
+    }
+
+    .text-area textarea {
+        height: 150px;
+    }
+
+    .submite_btn button {
+        padding: 10px 60px;
+        margin-top: 20px;
+
+    }
+
+    .get-in-touch-area {
+        padding-bottom: 30px;
+    }
+
+    .footer-logo {
+        text-align: center;
+    }
+
+    .social-media {
+
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .footer-main-area {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .tour-service h2 {
+        margin-top: 20px;
     }
 }

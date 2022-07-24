@@ -92,6 +92,7 @@ function openCity(evt, cityName) {
 document.getElementById("defaultOpen").click();
 
 // ======================Tab=================
+
 // ================HomeNav-scroll==============
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function () {
